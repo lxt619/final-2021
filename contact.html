@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/html5reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="imgs/favicon.ico" type="image/x-icon"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Signika&display=swap" rel="stylesheet">
+    <title>Contact</title>
+</head>
+
+<body>
+    <a class = "skip-to-content" href="#skip">Skip to content</a>
+    <header>
+        <nav>
+            <img src="imgs/logo.jpg" class="logo" width="60px" height="60px" alt="A pink website logo">
+            <ul>
+                <li><a href="index.html">About</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="food.html">Food</a></li>
+                <li><a href="hobby.html">Hobby</a></li>
+                <li><a href="contact.html" class="current">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="skip">
+        <div id="content">
+            <div class="contact_title"><h1>Contact</h1></div>
+            <div class="contact_intro">
+                <p>Contact me using the contact form below:</p>
+            </div>
+            <form action="https://formspree.io/f/mvolooor" method="POST">
+                <label for="name">Name:</label>
+			    <input type="text" placeholder="Enter Your Name" id = "name" name="name" required>
+			    <label for="email">Email:</label>
+			    <input type="email" placeholder="Enter Your Email" id = "email" name="email" required>
+			    <label for="msg">Message:</label>
+			    <textarea placeholder="Please leave your message here" id = "msg" name="msg" required></textarea><br>
+                <button class="btn"><span>Submit</span></button>
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <p>Xintong Li &copy; 2021</p>
+    </footer>
+
+</body>
+</html>
